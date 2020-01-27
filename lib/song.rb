@@ -39,6 +39,7 @@ class Song
     @@artists.each do |artist|
       count_hash[artist] += 1 
     end
+    count_hash
   end 
   
 end 
